@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-boot-web
+  lifecycle:
+    timeout-per-shutdown-phase: "20s"
+server:
+  shutdown: graceful
