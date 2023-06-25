@@ -2,6 +2,8 @@ spring:
   application:
     name: spring-boot-web
   lifecycle:
+    #  优雅关机超时时间
     timeout-per-shutdown-phase: "20s"
 server:
+  #  优雅关机: 提供一个宽限期，在此期间，现有的请求将被允许完成，但不允许有新的请求 (使用Tomcat的优雅关机需要Tomcat 9.0.33或更高版本。)
   shutdown: graceful
