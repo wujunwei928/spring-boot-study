@@ -1,4 +1,4 @@
-package cn.w3home.springbootweb.hello;
+package cn.w3home.springbootweb.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

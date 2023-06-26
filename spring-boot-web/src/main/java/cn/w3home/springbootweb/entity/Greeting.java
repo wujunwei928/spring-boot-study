@@ -1,4 +1,4 @@
-package cn.w3home.springbootweb.greeting;
+package cn.w3home.springbootweb.entity;
 
 import lombok.extern.slf4j.Slf4j;
 
